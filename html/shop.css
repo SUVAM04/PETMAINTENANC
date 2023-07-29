@@ -210,7 +210,7 @@ display: block;
 .top_bar_food button{
     width: 120px;
     height: 120px;
-    margin: 15px 50px;
+    margin: 15px 4%;
     border-radius: 50%;
     border: 5px solid rgb(255, 140, 0);
     cursor: pointer;
@@ -276,7 +276,7 @@ display: block;
    .top_bar_food button{
     width: 65px;
        height: 65px;
-       margin: 20px 4px;
+       margin: 20px 4%;
    }
    .top_bar_toy{
     height: 140px;
@@ -296,6 +296,16 @@ width: 65px;
 }
    }
 
+   @media only screen and (max-width: 500px){
+    .top_bar_items button{
+           margin: 20px 2px;
+        }
+        .top_bar_food button{
+            margin: 20px 2px;
+         }.top_bar_toy button{
+            margin: 20px 2px;
+         }
+   }
 /*************************************************************************/
 h4{
     color: rgb(255, 140, 0);
@@ -418,10 +428,10 @@ h4{
 
 }
 .product{
-    width: 350px;
+    width: 25%;
     height: max-content;
     background-color: rgb(255, 255, 255);
-    margin: 10px 40px;
+    margin: 10px 3%;
     border-radius: 25px;
     box-shadow: 2px 5px 10px rgb(177, 177, 177);
 border: 3px solid rgb(255, 140, 0);
@@ -440,7 +450,7 @@ border: 3px solid rgb(255, 140, 0);
 }
 .product_d{
     width: 90%;
-    height: 100px;
+    height: 130px;
     margin: 0px 17px;
 }
 .product_d p{
@@ -483,6 +493,8 @@ border: 3px solid rgb(255, 140, 0);
     background-color: rgb(255, 255, 255);
     display: inline-flex;
     margin-bottom: 10px;
+    justify-content: center;
+    
 }
 .row_header{
 width: 100%;
@@ -496,9 +508,42 @@ text-align: center;
     display: grid;
    }
    .product{
-    margin: 40px;
-    width: 300px;
+    margin: 10px 15%;
+    width: 70%;
+    
    }
+   .product_image{
+    width: 90%;
+    height: 220px;
+    margin: 0px 17px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+}
+.product_image img{
+    height: 100%;
+    width: 85%;
+}
+.product_d{
+    width: 90%;
+    height: max-content;
+    margin: 0px 17px;
+}
+.product_d p{
+   font-size: 15px;
+}
+.product_price{
+   height: 35px;
+   margin: 10px 17px;
+}
+.product_price h3{
+font-size: 20px;
+}
+.product_price button{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+}
    }
 /*************************************************************************/
 
