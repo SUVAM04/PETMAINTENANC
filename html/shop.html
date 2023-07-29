@@ -1,0 +1,2256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="shop.css">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="bar">
+        <img src="PetMaintenanc-removebg-preview.png">
+      
+      <div class="conus">
+        <img src="facebook.png">
+        <img src="youtube.png">
+        <img src="instagram.png">
+      </div>
+    </div>
+    <div class="nbar">
+      <hr>
+      <div class="sp"></div>
+      <nav>
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="shop.html">SHOP</a></li>
+          <li><a href="shop.html">PET</a></li>
+          <li><a href="shop.html">TAKE CARE CENTOR</a></li>
+          <li><a href="shop.html">STORYS</a></li>
+          <li><a href="shop.html">ABOUT</a></li>
+          <li><a href="shop.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+  </div>
+   
+</header>
+<div class="sp1"></div>
+<div class="newNav">
+  <div class="i1">
+    <i class="fa fa-navicon" style="font-size:24px;padding:15px 20px; color:rgb(255, 140, 0); cursor: pointer;" onclick="op()"></i>
+  </div>
+<div class="i2">
+  <i class="fa fa-heart" style="font-size:24px;padding:15px 20px; color:rgb(255, 140, 0); cursor: pointer;" onclick="op()"></i>
+  <i class="fa fa-shopping-bag" style="font-size:24px;padding:15px 20px; color:rgb(255, 140, 0); cursor: pointer;" onclick="op()"></i>
+  <i class="fa fa-user" style="font-size:24px;padding:15px 20px; color:rgb(255, 140, 0); cursor: pointer;" onclick="op()"></i>
+</div>
+
+</div>
+
+<div id="sidebar">
+  <div class="sidebar_element">
+    <button onclick="foodOpen()">FOOD</button>
+  </div>
+  <div class="sidebar_element">
+    <button onclick="toyOpen()">TOY</button>
+  </div>
+  <div class="sidebar_element">
+    <button onclick="itemsOpen()">OTHER ITEMS</button>
+  </div>
+</div>
+<div class="main">
+  <div class="top_bar_food" id="top_bar_food">
+    <h1>PET FOOD</h1>
+    <button><img src="../image/top_bar_dog1.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="dogFood()"></button>
+    <button><img src="../image/top_bar_cat.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="catFood()"></button>
+    <button><img src="../image/top_bar_brid.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="birdFood()"></button>
+    <button><img src="../image/top_bar_fish.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="fishFood()"></button>
+    <button><img src="../image/top_bar_rabbit.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="rabbitFood()"></button>
+    
+  </div>
+  <div class="top_bar_toy" id="top_bar_toy">
+    <h1>PET TOY</h1>
+    <button><img src="../image/top_bar_dog1.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="dogToy()"></button>
+    <button><img src="../image/top_bar_cat.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="catToy()"></button>
+    <button><img src="../image/top_bar_brid.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="birdToy()"></button>
+    <button><img src="../image/top_bar_fish.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="fishToy()"></button>
+    <button><img src="../image/top_bar_rabbit.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="rabbitToy()"></button>
+    
+  </div>
+  <div class="top_bar_items" id="top_bar_items">
+    <h1>PET ACCESSORIES</h1>
+    <button><img src="../image/top_bar_dog1.jpg"  style=" border-radius: 50%;" width="100%" height="100%"  onclick="dogItems()"></button>
+    <button><img src="../image/top_bar_cat.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="catItems()"></button>
+    <button><img src="../image/top_bar_brid.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="birdItems()"></button>
+    <button><img src="../image/top_bar_fish.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="fishItems()"></button>
+    <button><img src="../image/top_bar_rabbit.jpg"  style=" border-radius: 50%;" width="100%" height="100%" onclick="rabbitItems()"></button>
+    
+  </div>
+  
+  <div class="main_content">
+    <!------------------DOG---------------------->
+   <div class="dog_food" id="dog_food">
+    <div class="row_header">
+      <h4>DOG</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product 1 (6).png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>Drools Drools Calcium Milk Bone</b><br>
+            (300+300)gm supplement Milk 0.6 kg (2x0.3 kg) Dry Adult, New Born, Young, Senior Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 499.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dog_toy" id="dog_toy">
+    <div class="row_header">
+      <h4>DOG</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (8).png">
+        </div>
+        <div class="product_d">
+          <br>
+          <p>
+            <b>FOODIE</b><br>
+           Puppies Dogs Litter Scoop<br>
+            ₹899 33% off
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 599.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product 1 (1).jpg">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>Foodie Puppies Rubber Chew Combo</b><br>
+            Color May Vary Rubber Training Aid, Chew Toy, Bone, Fetch Toy For Dog & Cat
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 290.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product 1 (9).png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>FOODIE PUPPIES MONKEY</b><br>
+            Crinkle Paper Rope Plush Toy|Interactive Cute Squeaky, Teething Toys Cotton Plush Toy For Dog
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 499.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product 1 (7).png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>Foodie Puppies Pet Puzzle</b><br>
+            Puzzle Game for Training and Slow Feed, Non-Slip Feeder Designed Plastic Treat Dispensing Toy For Dog
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 490.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dog_items" id="dog_items">
+    <div class="row_header">
+      <h4>DOG</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (1).png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>Pet Bed</b><br>
+              Adult Dog Bed . Red<br>
+              ₹999 50% off
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 499.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (3).png">
+        </div>
+        <div class="product_d">
+          <br>
+          <p>
+            <b>RK PRODUCTS</b><br>
+             10 BLUE GADI M Pet Bed  (Blue,DOG)
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 344.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (9).jpg">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>FLYNOVATE Self Cleaning Dog Comb & Cat Comb</b><br>
+             Pet Hair Remover + Bath Brush Slicker Brushes for Dog, Cat
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 699.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="../image//product (10).jpg">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>Bones UP Dog Bath Brush</b><br>
+             1 piece Silicone Pet Grooming Shower Brush Body Scrubber Plain/ Bristle Brushes for Dog & Cat
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 119.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (2).png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>GLOBE OF PETS</b><br>
+             152 cm Dog Chain Leash  (Red, Black)
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 699.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (5).png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>Smart Doggie</b><br>
+             Combo of Adjustable Dog Collar and Leash for Dogs of All Breed Length 142 cm Dog Strap Leash  (Blue)
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 194.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------CAT---------------------->
+  <div class="cat_food" id="cat_food" >
+    <div class="row_header">
+      <h4>CAT</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (6).png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>ACTIVE</b><br>
+            Ocean Fish 2.4 kg (2x1.2 kg) Dry Adult Cat Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 395.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (7).png">
+        </div>
+        <div class="product_d">
+          <br>
+          <p>
+            <b>LET'S BITE</b><br>
+            Buy 1 Get 1 Free Dry Adult Cat Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 189.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cat_toy" id="cat_toy">
+    <div class="row_header">
+      <h4>CAT</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product 1 (1).jpg">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>Foodie Puppies Rubber Chew Combo</b><br>
+            Color May Vary Rubber Training Aid, Chew Toy, Bone, Fetch Toy For Dog & Cat
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 290.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cat_items" id="cat_items">
+    <div class="row_header">
+      <h4>CAT</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="../image/product (9).jpg">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>FLYNOVATE Self Cleaning Dog Comb & Cat Comb</b><br>
+             Pet Hair Remover + Bath Brush Slicker Brushes for Dog, Cat
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 699.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="../image//product (10).jpg">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>Bones UP Dog Bath Brush</b><br>
+             1 piece Silicone Pet Grooming Shower Brush Body Scrubber Plain/ Bristle Brushes for Dog & Cat
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 119.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------BRID---------------------->
+  <div class="brid_food" id="brid_food" >
+    <div class="row_header">
+      <h4>BRID</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="brid_toy" id="brid_toy">
+    <div class="row_header">
+      <h4>BRID</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="brid_items" id="brid_items">
+    <div class="row_header">
+      <h4>BRID</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------FISH---------------------->
+  <div class="fish_food" id="fish_food">
+    <div class="row_header">
+      <h4>FISH</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fish_toy" id="fish_toy">
+    <div class="row_header">
+      <h4>FISH</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fish_items" id="fish_items">
+    <div class="row_header">
+      <h4>FISH</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------RABBIT---------------------->
+  <div class="rabbit_food" id="rabbit_food">
+    <div class="row_header">
+      <h4>RABBIT</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rabbit_toy" id="rabbit_toy">
+    <div class="row_header">
+      <h4>RABBIT</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rabbit_items" id="rabbit_items">
+    <div class="row_header">
+      <h4>RABBIT</h4>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_image">
+          <img src="download-removebg-preview.png">
+        </div>
+        <div class="product_d">
+          <p>
+            <b>PEDIGREE CHICKEN AND VEGETABLE</b><br>
+             3KG Chicken, Vegetable 3 kg Dry Adult Dog Food
+          </p>
+        </div>
+        <div class="product_price">
+  <h3>₹ 100.00</h3>
+  <button>Add +</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   </div>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,520 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------------------------------------header------------------------------------*/
+header{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+}
+.bar{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.bar img{
+    height: 70px;
+    width: 300px;
+}
+
+.sh{
+    width: 40%;
+    height: 100%;
+    margin-left: 40%;
+    margin-top: -75px;
+    background-color: rgb(255, 255, 255);
+}
+.sh input{
+    height: 40px;
+    width: 400px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    margin-left: 10%;
+    border-bottom:ridge;
+    border-bottom-color: rgb(255, 140, 0);
+    color: #343434;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.sh button{
+    height: 40px;
+    width: 80px;
+    border: hidden;
+    
+}
+.conus{
+    width: 20%;
+    height: 100%;
+    margin-left: 80%;
+    margin-top: -75px;
+    background-color: rgb(255, 255, 255);
+}
+.conus img{
+
+    height: 50px;
+    width: 50px;
+    margin-left: 7%;
+    margin-top: 15px;
+
+}
+@media only screen and (max-width: 830px) {
+    .conus img{
+        display: none;
+    }
+    
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*******************************************navbar**************************************************/
+hr{
+    background-color:rgb(255, 140, 0);
+    width: 80%;
+    height: 2px;
+    margin-left: 10%;
+    border: hidden;
+}
+.nbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgba(110, 110, 110, 0.2); 
+
+}
+.sp{
+    width: 100%;
+    height: 15px;
+}
+.sp1{
+    width: 100%;
+    height: 125px;
+}
+nav{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+nav a{
+    color: rgb(255, 140, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #ffbb00;
+   
+}
+.newNav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    border-bottom: 2px solid rgb(218, 218, 218);
+    display: flexbox;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.i1{
+    background-color:transparent;
+    height: auto;
+    width: 200px;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: start;
+}
+.i2{
+    background-color: transparent;
+    height: auto;
+    width: 500px;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+@media only screen and (max-width: 800px) {
+   nav{
+    display: none;
+   }
+   }
+/*-------------------------------------------------------------------------------------------------*/
+/*--------------------------------------saidebar----------------------------------*/
+#sidebar {
+    width: 250px;
+    height: 550px;
+    background-color: white;
+    position:fixed;
+    margin-left: 10px;
+    margin-top: 1px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: block;
+}
+.sidebar_element{
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 10%;
+    border-bottom: 3px solid rgb(255, 200, 133);
+}
+.sidebar_element button{
+display: inline-block;
+width: 100%;
+height: max-content;
+background-color: white;
+color: rgb(255, 140, 0);
+text-align: center;
+font-size: 25px;
+padding: 13px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+cursor: pointer;
+border: hidden;
+}
+
+@media only screen and (max-width: 830px) {
+   #sidebar{
+    display: none;
+   }
+  }
+
+/************************************************************************************/
+.main{
+    height: max-content;
+    width: 82.5%;
+    margin-left: 17.3%;
+    background-color: transparent;
+}
+@media only screen and (max-width: 830px) {
+   .main{
+    width: 100%;
+    margin-left: 0px;
+   }
+   }
+/*----------------------------------Top Bar--------------------------------------*/
+.top_bar_food{
+ width: 100%;
+ height: 200px;
+ background-color: #fefefe;
+align-items: center;
+text-align: center;
+display: block;
+}
+.top_bar_food h1{
+    color: rgb(255, 140, 0);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+}
+.top_bar_food button{
+    width: 120px;
+    height: 120px;
+    margin: 15px 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 140, 0);
+    cursor: pointer;
+}
+.top_bar_food button:active{
+    border: 5px solid rgb(255, 166, 58);
+
+}
+.top_bar_toy{
+    width: 100%;
+    height: 200px;
+    background-color: #fefefe;
+   align-items: center;
+   text-align: center;
+   display: none;
+   }
+   .top_bar_toy h1{
+    color: rgb(255, 140, 0);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+}
+   .top_bar_toy button{
+       width: 120px;
+       height: 120px;
+       margin: 15px 50px;
+       border-radius: 50%;
+       border: 5px solid rgb(255, 140, 0);
+       cursor: pointer;
+   }
+   .top_bar_toy button:active{
+       border: 5px solid rgb(255, 166, 58);
+   
+   }
+   .top_bar_items{
+    width: 100%;
+    height: 200px;
+    background-color: #fefefe;
+   align-items: center;
+   text-align: center;
+   display: none;
+   }
+   .top_bar_items h1{
+    color: rgb(255, 140, 0);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+}
+   .top_bar_items button{
+       width: 120px;
+       height: 120px;
+       margin: 15px 50px;
+       border-radius: 50%;
+       border: 5px solid rgb(255, 140, 0);
+       cursor: pointer;
+   }
+   .top_bar_items button:active{
+       border: 5px solid rgb(255, 166, 58);
+   
+   }
+   @media only screen and (max-width: 830px) {
+    .top_bar_food{
+        height: 140px;
+    }
+   .top_bar_food button{
+    width: 65px;
+       height: 65px;
+       margin: 20px 4px;
+   }
+   .top_bar_toy{
+    height: 140px;
+}
+.top_bar_toy button{
+width: 65px;
+   height: 65px;
+   margin: 20px 4px;
+}
+.top_bar_items{
+    height: 140px;
+}
+.top_bar_items button{
+width: 65px;
+   height: 65px;
+   margin: 20px 4px;
+}
+   }
+
+/*************************************************************************/
+h4{
+    color: rgb(255, 140, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dog_food{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: block;
+}
+.dog_toy{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.dog_items{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.cat_food{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.cat_toy{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.cat_items{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.fish_food{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.fish_toy{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.fish_items{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.brid_food{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.brid_toy{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.brid_items{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.rabbit_food{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.rabbit_toy{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+.rabbit_items{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+    display: none;
+}
+/*----------------------------------main_content--------------------------------------*/
+.main_content{
+    height: max-content;
+    width: 100%;
+    background-color:transparent;
+    margin-top: 10px;
+
+}
+.product{
+    width: 350px;
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 40px;
+    border-radius: 25px;
+    box-shadow: 2px 5px 10px rgb(177, 177, 177);
+border: 3px solid rgb(255, 140, 0);
+}
+.product_image{
+    width: 90%;
+    height: 220px;
+    margin: 0px 17px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+}
+.product_image img{
+    height: 100%;
+    width: 85%;
+}
+.product_d{
+    width: 90%;
+    height: 100px;
+    margin: 0px 17px;
+}
+.product_d p{
+    color: rgb(255, 98, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.product_price{
+    width: 90%;
+    height: 50px;
+    margin: 0px 17px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.product_price h3{
+    color: rgb(255, 98, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.product_price button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 140, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+    border: hidden;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.product_price button:active{
+    background-color: rgb(255, 168, 0);
+
+}
+.row{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.row_header{
+width: 100%;
+height: max-content;
+padding: 30px 0px;
+background-color: rgb(255, 255, 255);
+text-align: center;
+}
+@media only screen and (max-width: 500px) {
+   .row{
+    display: grid;
+   }
+   .product{
+    margin: 40px;
+    width: 300px;
+   }
+   }
+/*************************************************************************/
+
+body{
+    background-color: #dadada;
+}
+/*-----------------------------show--------------------------------------------------------*/
+.ban1{
+    width: 100%;
+    height: 100%;
+    
+}
+.ban1 video{
+    width: 100%;
+    height: 100%;
+    margin-top: 110px;
+}
+
+/*---------------------------------------------------------------------------------------*/
