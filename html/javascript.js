@@ -8,7 +8,32 @@ function op() {
     sidebar.style.display = "block";
   }
 }
+function op10() {
+  var sidebar = document.getElementById("nbar");
+  if (sidebar.style.height === "max-content") {
+    sidebar.style.height = "40px";
+  document.getElementById("nav").style.display = "none";
 
+  } else {
+    sidebar.style.height = "max-content";
+  document.getElementById("nav").style.display = "block";
+
+  }
+}
+function op11() {
+  var sidebar = document.getElementById("nbar");
+  if (sidebar.style.height === "max-content") {
+    sidebar.style.height = "40px";
+  document.getElementById("nav").style.display = "none";
+  document.getElementById("video").style.marginTop="110px";
+  } else {
+    sidebar.style.height = "max-content";
+    document.getElementById("video").style.marginTop="350px";
+
+  document.getElementById("nav").style.display = "block";
+
+  }
+}
 function foodOpen() {
   document.getElementById("top_bar_food").style.display = "block";
   document.getElementById("top_bar_toy").style.display = "none";
