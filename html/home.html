@@ -7,6 +7,7 @@
     <title>HOME</title>
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
@@ -16,12 +17,14 @@
         <img src="facebook.png">
         <img src="youtube.png">
         <img src="instagram.png">
+    <i class="fa fa-navicon" id="i3" style="font-size:40px;padding:15px 20px; color:rgb(255, 140, 0); cursor: pointer;" onclick="op11()"></i>
+
       </div>
     </div>
-    <div class="nbar">
+    <div class="nbar" id="nbar">
       <hr>
       <div class="sp"></div>
-      <nav>
+      <nav id="nav">
         <ul>
           <li><a href="shop.html">HOME</a></li>
           <li><a href="shop.html">SHOP</a></li>
@@ -35,8 +38,8 @@
   </div>
 </header>
 
-<div class="div1">
-  <video autoplay loop muted plays-inline>
+<div class="div1" id="div1">
+  <video autoplay loop muted plays-inline id="video">
     <source src="shop_ban.mp4" type="video/mp4">
   </video>
   <div class="ban">
@@ -49,16 +52,16 @@
 <div class="divpet">
   <div class="petrow">
     
-    <div class="po1">
+    <div class="po">
       <img src="cute-cat-corgi-dog-cartoon-vector-icon-illustration_480044-276-removebg-preview.png" class="petimg">
       <h1 class="poh">Join the Pet Network Community Today!</h1>
     </div>
-    <div class="po2">
+    <div class="po">
       <img src="cute-cat-dog-cartoon-icon-illustration-animal-icon-concept-isolated-flat-cartoon-style_138676-1381-removebg-preview.png" class="petimg">
       <h1 class="poh">Spending time with pets can boost happiness levels!</h1>
-      <a class="poa"></a>
+      <a class="po"></a>
     </div>
-    <div class="po3">
+    <div class="po">
       <img src="cute-dog-cat-friend-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-flat_138676-4548-removebg-preview.png" class="petimg">
       <h1 class="poh">New Research Helps Owners Better Understand Their Pets' Behavior</h1>
       <a class="poa"></a>
